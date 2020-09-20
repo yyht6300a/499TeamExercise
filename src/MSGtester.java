@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class MSGtester {
     private static StringSorterAsc Sorter;
@@ -14,6 +15,9 @@ public class MSGtester {
         Sorter.ContentSortAsc(list);
         System.out.print("\nAfter sorted by content Asc\n"+list);
 
-
+//      Test StringSorterDesc
+        String[] testStrings = {"cow", "bat", "dog", "zebra", "llama"};
+        String[] sortedDescArray = StringSorterDesc.sortStringsDesc(testStrings);
+        System.out.println("\nTest StringSorterDesc:\nBefore sorting: \n" + Arrays.toString(testStrings) + "\nAfter sorted by string desc.: \n" + Arrays.toString(sortedDescArray));
     }
 }
