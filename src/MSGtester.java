@@ -14,10 +14,5 @@ public class MSGtester {
         System.out.print("Before sorting: \n"+list);
         Sorter.ContentSortAsc(list);
         System.out.print("\nAfter sorted by content Asc\n"+list);
-
-//      Test StringSorterDesc
-        String[] testStrings = {"cow", "bat", "dog", "zebra", "llama"};
-        String[] sortedDescArray = StringSorterDesc.sortStringsDesc(testStrings);
-        System.out.println("\nTest StringSorterDesc:\nBefore sorting: \n" + Arrays.toString(testStrings) + "\nAfter sorted by string desc.: \n" + Arrays.toString(sortedDescArray));
     }
 }
