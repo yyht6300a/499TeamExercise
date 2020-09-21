@@ -13,7 +13,7 @@ public class Msg implements Comparable<Msg>{
     public int compareTo(Msg other){
         return (int)(this.num-other.num);
     }
-    public String getContent() {
+    public String getContents() {
         return this.content;
     }
     public void setContent(String content) {
