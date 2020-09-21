@@ -18,7 +18,7 @@ class StringSorterAscTest {
 	            list.add(new Msg("sfhfdg",425.12));
 	            list.add(new Msg("fjkashglk",231.2));
 	            Sorter.ContentSortAsc(list);
-	            String[] result={list.get(0).getContents(),list.get(1).getContents(),list.get(2).getContents(),list.get(3).getContents(),list.get(4).getContents()};
+	            String[] result={list.get(0).getContent(),list.get(1).getContent(),list.get(2).getContent(),list.get(3).getContent(),list.get(4).getContent()};
 
 	            String[] correct={"aabcda","aafsdg","fjkashglk","sdhfgh","sfhfdg"};
 	            assertArrayEquals(correct, result);

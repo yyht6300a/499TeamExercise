@@ -9,7 +9,7 @@ public class StringSorterAsc {
                 int idxMin = i;
                 for (int scan = i + 1; scan < list.size(); scan++) {
 
-                    if (list.get(idxMin).getContents().compareTo(list.get(scan).getContents() )>0){
+                    if (list.get(idxMin).getContent().compareTo(list.get(scan).getContent() )>0){
                         idxMin = scan;
                     }
 
