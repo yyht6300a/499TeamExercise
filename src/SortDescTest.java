@@ -11,7 +11,7 @@ class SortDescTest {
 	@Test
 	void test() {
         int[] inArray = { 23, 76, 12, 43, 90, 30 };
-        int[] outArray = { 12, 23, 30, 43, 76, 90};
+        int[] outArray = { 90, 76, 43, 30, 23, 12};
         Arrays.sort(inArray);
         Assert.assertArrayEquals(outArray, inArray);
 	}
