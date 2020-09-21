@@ -8,4 +8,4 @@
     Originally Collections.Sort sorts integer elements in an array by ascending order, by overriding "compare()", SortDes.java makes Collections.Sort sort integer in descending order. Additionally, SortDescTest.java provides unit tests to make sure that testing in descending order works.
 
 3. Sorting Strings in Descending Order
-    To use this function, call StringSorterDesc.sortStringsDesc(String[]). The input is an array of strings, and the output is a new array of strings sorted in descending order. StringSorterDescTest.java is included to make sure the sortStringsDesc functions as intended.
+    To use this function, call StringSorterDesc.sortStringsDesc(String[]). The input is an array of strings, and the output is a new array of strings sorted in descending order. The bubble sort algorithm is used to sort the strings. StringSorterDescTest.java is included to make sure the sortStringsDesc functions as intended.
