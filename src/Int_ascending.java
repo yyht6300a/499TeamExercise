@@ -1,6 +1,7 @@
 public class Int_ascending {
 
-	
+	//the function ascending require an unsorted integer array as the input
+	//it can sort the array in ascending order
 	public static void ascending(int[]arr) {
 		for(int i=0;i<arr.length;i++) {
 			int Min=i;
