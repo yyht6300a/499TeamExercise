@@ -10,7 +10,7 @@ class StringSorterAscTest {
 	void test() {
 		 
 	       
-	        
+	        //String Ascending Sorter will sort an ArrayList with 'Msg' elements. It is based on the content of each Msg, which is a String. 
 	            ArrayList<Msg> list=new ArrayList<>(5);
 	            list.add(new Msg("aabcda",3255));
 	            list.add(new Msg("aafsdg",4354));
