@@ -9,3 +9,6 @@
 
 3. Sorting Strings in Descending Order
     To use this function, call StringSorterDesc.sortStringsDesc(String[]). The input is an array of strings, and the output is a new array of strings sorted in descending order. The bubble sort algorithm is used to sort the strings. StringSorterDescTest.java is included to make sure the sortStringsDesc functions as intended.
+
+4. Sorting String in Ascending Order
+    To use this function, first create a String sorter. This sorter will be used to sort an arraylist of 'msg' objects. The sorter will obtain the content of each msg elements and sort them in ascending order. The output is the same Arraylist but with each msg sorted by content in Ascending order. 
