@@ -13,7 +13,7 @@ public class Int_ascending {
 			arr[i]=arr[Min];
 			arr[Min]=temp;
 		}
-	
+	//use a nested for loop to check through the array, if i>j, switch two elements
 }//ascending
 	
 }
